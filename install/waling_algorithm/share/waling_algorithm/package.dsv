@@ -1,0 +1,8 @@
+source;share/waling_algorithm/hook/cmake_prefix_path.ps1
+source;share/waling_algorithm/hook/cmake_prefix_path.dsv
+source;share/waling_algorithm/hook/cmake_prefix_path.sh
+source;share/waling_algorithm/local_setup.bash
+source;share/waling_algorithm/local_setup.dsv
+source;share/waling_algorithm/local_setup.ps1
+source;share/waling_algorithm/local_setup.sh
+source;share/waling_algorithm/local_setup.zsh

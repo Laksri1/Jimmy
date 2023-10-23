@@ -1,0 +1,4 @@
+source;share/waling_algorithm/local_setup.bash
+source;share/waling_algorithm/local_setup.dsv
+source;share/waling_algorithm/local_setup.sh
+source;share/waling_algorithm/local_setup.zsh
