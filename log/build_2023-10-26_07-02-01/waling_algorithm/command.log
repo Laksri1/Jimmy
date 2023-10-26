@@ -1,0 +1,4 @@
+Invoking command in '/home/laksri/Projects/Jimmy/build/waling_algorithm': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --build /home/laksri/Projects/Jimmy/build/waling_algorithm -- -j16 -l16
+Invoked command in '/home/laksri/Projects/Jimmy/build/waling_algorithm' returned '0': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --build /home/laksri/Projects/Jimmy/build/waling_algorithm -- -j16 -l16
+Invoking command in '/home/laksri/Projects/Jimmy/build/waling_algorithm': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --install /home/laksri/Projects/Jimmy/build/waling_algorithm
+Invoked command in '/home/laksri/Projects/Jimmy/build/waling_algorithm' returned '0': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --install /home/laksri/Projects/Jimmy/build/waling_algorithm

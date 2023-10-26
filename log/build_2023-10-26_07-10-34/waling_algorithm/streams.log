@@ -1,0 +1,44 @@
+[0.045s] Invoking command in '/home/laksri/Projects/Jimmy/build/waling_algorithm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --build /home/laksri/Projects/Jimmy/build/waling_algorithm -- -j16 -l16
+[0.075s] Built target ament_cmake_python_copy_scripts
+[0.213s] running egg_info
+[0.214s] writing scripts.egg-info/PKG-INFO
+[0.214s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.214s] writing top-level names to scripts.egg-info/top_level.txt
+[0.216s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.216s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.232s] Built target ament_cmake_python_build_scripts_egg
+[0.240s] Invoked command in '/home/laksri/Projects/Jimmy/build/waling_algorithm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --build /home/laksri/Projects/Jimmy/build/waling_algorithm -- -j16 -l16
+[0.258s] Invoking command in '/home/laksri/Projects/Jimmy/build/waling_algorithm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --install /home/laksri/Projects/Jimmy/build/waling_algorithm
+[0.263s] -- Install configuration: ""
+[0.263s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/pythonpath.sh
+[0.263s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/pythonpath.dsv
+[0.263s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[0.263s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.263s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.263s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.263s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.263s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts
+[0.263s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.263s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/publisher.py
+[0.263s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[0.282s] Listing '/home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts'...
+[0.282s] Compiling '/home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/publisher.py'...
+[0.283s] Compiling '/home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/subscriber.py'...
+[0.285s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/lib/waling_algorithm/publisher.py
+[0.285s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/lib/waling_algorithm/subscriber.py
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/ament_index/resource_index/package_run_dependencies/waling_algorithm
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/ament_index/resource_index/parent_prefix_path/waling_algorithm
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/ament_prefix_path.sh
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/ament_prefix_path.dsv
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/path.sh
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/path.dsv
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.bash
+[0.285s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.sh
+[0.286s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.zsh
+[0.286s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.dsv
+[0.286s] -- Installing: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/package.dsv
+[0.286s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/ament_index/resource_index/packages/waling_algorithm
+[0.286s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/cmake/waling_algorithmConfig.cmake
+[0.286s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/cmake/waling_algorithmConfig-version.cmake
+[0.286s] -- Up-to-date: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/package.xml
+[0.287s] Invoked command in '/home/laksri/Projects/Jimmy/build/waling_algorithm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --install /home/laksri/Projects/Jimmy/build/waling_algorithm

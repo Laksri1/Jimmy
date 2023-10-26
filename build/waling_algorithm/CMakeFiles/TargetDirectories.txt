@@ -1,5 +1,7 @@
 /home/laksri/Projects/Jimmy/build/waling_algorithm/CMakeFiles/uninstall.dir
 /home/laksri/Projects/Jimmy/build/waling_algorithm/CMakeFiles/waling_algorithm_uninstall.dir
+/home/laksri/Projects/Jimmy/build/waling_algorithm/CMakeFiles/ament_cmake_python_copy_scripts.dir
+/home/laksri/Projects/Jimmy/build/waling_algorithm/CMakeFiles/ament_cmake_python_build_scripts_egg.dir
 /home/laksri/Projects/Jimmy/build/waling_algorithm/CMakeFiles/test.dir
 /home/laksri/Projects/Jimmy/build/waling_algorithm/CMakeFiles/edit_cache.dir
 /home/laksri/Projects/Jimmy/build/waling_algorithm/CMakeFiles/rebuild_cache.dir
