@@ -1,0 +1,72 @@
+[0.192s] Invoking command in '/home/laksri/Projects/Jimmy/build/waling_algorithm': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake /home/laksri/Projects/Jimmy/src/waling_algorithm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laksri/Projects/Jimmy/install/waling_algorithm
+[0.252s] -- The C compiler identification is GNU 11.4.0
+[0.304s] -- The CXX compiler identification is GNU 11.4.0
+[0.310s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.357s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.360s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.425s] -- Detecting CXX compile features
+[0.425s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.536s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.577s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.598s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[0.647s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.695s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.696s] -- Added test 'lint_cmake' to check CMake code style
+[0.696s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.697s] -- Added test 'xmllint' to check XML markup files
+[0.697s] -- Configuring done
+[0.699s] -- Generating done
+[0.700s] -- Build files have been written to: /home/laksri/Projects/Jimmy/build/waling_algorithm
+[0.703s] Invoked command in '/home/laksri/Projects/Jimmy/build/waling_algorithm' returned '0': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake /home/laksri/Projects/Jimmy/src/waling_algorithm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laksri/Projects/Jimmy/install/waling_algorithm
+[0.704s] Invoking command in '/home/laksri/Projects/Jimmy/build/waling_algorithm': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --build /home/laksri/Projects/Jimmy/build/waling_algorithm -- -j16 -l16
+[0.733s] Built target ament_cmake_python_symlink_scripts
+[0.864s] running egg_info
+[0.864s] creating scripts.egg-info
+[0.864s] writing scripts.egg-info/PKG-INFO
+[0.864s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.864s] writing top-level names to scripts.egg-info/top_level.txt
+[0.864s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.865s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.865s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.883s] Built target ament_cmake_python_build_scripts_egg
+[0.890s] Invoked command in '/home/laksri/Projects/Jimmy/build/waling_algorithm' returned '0': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --build /home/laksri/Projects/Jimmy/build/waling_algorithm -- -j16 -l16
+[0.908s] Invoking command in '/home/laksri/Projects/Jimmy/build/waling_algorithm': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --install /home/laksri/Projects/Jimmy/build/waling_algorithm
+[0.911s] -- Install configuration: ""
+[0.912s] -- Execute custom install script
+[0.912s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/pythonpath.sh
+[0.917s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/pythonpath.dsv
+[0.923s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.928s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.933s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.938s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.943s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.949s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/publisher.py
+[0.954s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[0.959s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/lib/waling_algorithm/publisher.py
+[0.963s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/lib/waling_algorithm/subscriber.py
+[0.968s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/ament_index/resource_index/package_run_dependencies/waling_algorithm
+[0.972s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/ament_index/resource_index/parent_prefix_path/waling_algorithm
+[0.976s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/ament_prefix_path.sh
+[0.981s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/ament_prefix_path.dsv
+[0.986s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/path.sh
+[0.991s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/environment/path.dsv
+[0.996s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.bash
+[1.000s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.sh
+[1.004s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.zsh
+[1.008s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/local_setup.dsv
+[1.012s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/package.dsv
+[1.016s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/ament_index/resource_index/packages/waling_algorithm
+[1.021s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/cmake/waling_algorithmConfig.cmake
+[1.025s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/cmake/waling_algorithmConfig-version.cmake
+[1.030s] -- Symlinking: /home/laksri/Projects/Jimmy/install/waling_algorithm/share/waling_algorithm/package.xml
+[1.057s] Listing '/home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts'...
+[1.057s] Compiling '/home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[1.058s] Compiling '/home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/publisher.py'...
+[1.058s] Compiling '/home/laksri/Projects/Jimmy/install/waling_algorithm/local/lib/python3.10/dist-packages/scripts/subscriber.py'...
+[1.062s] Invoked command in '/home/laksri/Projects/Jimmy/build/waling_algorithm' returned '0': CMAKE_PREFIX_PATH=/home/laksri/Projects/RosTest/install/RosTest1:/opt/ros/humble /usr/bin/cmake --install /home/laksri/Projects/Jimmy/build/waling_algorithm

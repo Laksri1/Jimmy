@@ -198,17 +198,17 @@ waling_algorithm_uninstall/fast:
 .PHONY : waling_algorithm_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_scripts
+# Target rules for targets named ament_cmake_python_symlink_scripts
 
 # Build rule for target.
-ament_cmake_python_copy_scripts: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_scripts
-.PHONY : ament_cmake_python_copy_scripts
+ament_cmake_python_symlink_scripts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_scripts
+.PHONY : ament_cmake_python_symlink_scripts
 
 # fast build rule for target.
-ament_cmake_python_copy_scripts/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_scripts.dir/build.make CMakeFiles/ament_cmake_python_copy_scripts.dir/build
-.PHONY : ament_cmake_python_copy_scripts/fast
+ament_cmake_python_symlink_scripts/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_scripts.dir/build.make CMakeFiles/ament_cmake_python_symlink_scripts.dir/build
+.PHONY : ament_cmake_python_symlink_scripts/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_scripts_egg
@@ -237,7 +237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_scripts_egg"
-	@echo "... ament_cmake_python_copy_scripts"
+	@echo "... ament_cmake_python_symlink_scripts"
 	@echo "... uninstall"
 	@echo "... waling_algorithm_uninstall"
 .PHONY : help

@@ -1,3 +1,1 @@
-source;share/waling_algorithm/environment/ament_prefix_path.sh
-source;share/waling_algorithm/environment/path.sh
-source;share/waling_algorithm/environment/pythonpath.sh
+/home/laksri/Projects/Jimmy/build/waling_algorithm/ament_cmake_environment_hooks/local_setup.dsv

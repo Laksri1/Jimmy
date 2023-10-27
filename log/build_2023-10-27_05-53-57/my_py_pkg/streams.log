@@ -1,0 +1,18 @@
+[0.414s] Invoking command in '/home/laksri/Projects/Jimmy/build/my_py_pkg': PYTHONPATH=/home/laksri/Projects/Jimmy/build/my_py_pkg/prefix_override:/home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/laksri/Projects/Jimmy/build/my_py_pkg/build --no-deps install_data
+[0.556s] running develop
+[0.630s] running egg_info
+[0.630s] writing my_py_pkg.egg-info/PKG-INFO
+[0.630s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.630s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.630s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.631s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.632s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.632s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.633s] running build_ext
+[0.633s] Creating /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.633s] Installing my_publisher script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg
+[0.633s] Installing my_subscriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg
+[0.633s] 
+[0.633s] Installed /home/laksri/Projects/Jimmy/build/my_py_pkg
+[0.633s] running install_data
+[0.649s] Invoked command in '/home/laksri/Projects/Jimmy/build/my_py_pkg' returned '0': PYTHONPATH=/home/laksri/Projects/Jimmy/build/my_py_pkg/prefix_override:/home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/laksri/Projects/Jimmy/build/my_py_pkg/build --no-deps install_data
