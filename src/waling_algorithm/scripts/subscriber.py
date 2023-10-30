@@ -2,26 +2,26 @@
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import Float32
 
-class HelloWorldSubscriber(Node):
+class SpeedCalculator(Node):
     def __init__(self):
         super().__init__("hello_world_sub_node")
-        self.sub = self.create_subscription(String, "hello_world", self.subscriber_callback, 10)
+        self.sub = self.create_subscription(Float32, "hello_world", self.calculate_speed, 10)
 
-    def subscriber_callback(self,msg):
+    def calculate_speed(self,msg):
         print("received: " + msg.data)
 
 def main(args=None):
     rclpy.init()
-    my_sub = HelloWorldSubscriber()
+     speed_calc_node = SpeedCalculator()
     print("waiting....")
 
     try:  
-        rclpy.spin(my_sub)
+        rclpy.spin( speed_calc_node)
     except KeyboardInterrupt:
         print("terminating....")
-        my_sub.destroy_node()
+         speed_calc_node.destroy_node()
 
 if __name__ == '__main__':
     main()

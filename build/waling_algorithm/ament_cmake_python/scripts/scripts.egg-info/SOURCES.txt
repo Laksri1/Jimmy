@@ -1,6 +1,8 @@
 setup.py
 scripts/__init__.py
 scripts/publisher.py
+scripts/rpm_pub.py
+scripts/speed_clc.py
 scripts/subscriber.py
 scripts.egg-info/PKG-INFO
 scripts.egg-info/SOURCES.txt

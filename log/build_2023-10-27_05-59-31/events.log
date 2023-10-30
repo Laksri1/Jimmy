@@ -67,7 +67,7 @@
 [0.628621] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
 [0.628776] (my_py_pkg) StdoutLine: {'line': b'Creating /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)\n'}
 [0.629190] (my_py_pkg) StdoutLine: {'line': b'Installing my_publisher script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg\n'}
-[0.629304] (my_py_pkg) StdoutLine: {'line': b'Installing my_subscriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.629304] (my_py_pkg) StdoutLine: {'line': b'Installing  speed_calc_nodescriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg\n'}
 [0.629391] (my_py_pkg) StdoutLine: {'line': b'\n'}
 [0.629452] (my_py_pkg) StdoutLine: {'line': b'Installed /home/laksri/Projects/Jimmy/build/my_py_pkg\n'}
 [0.629512] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}

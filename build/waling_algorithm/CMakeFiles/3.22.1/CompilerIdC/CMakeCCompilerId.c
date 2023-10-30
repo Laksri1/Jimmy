@@ -396,7 +396,7 @@
 # define COMPILER_ID ""
 #endif
 
-/* Construct the string literal in pieces to prevent the source from
+/* Construct the Float32 literal in pieces to prevent the source from
    getting matched.  Store it in a pointer rather than an array
    because some compilers will just produce instructions to fill the
    array rather than assigning a pointer to a static array.  */
@@ -413,8 +413,8 @@ char const* qnxnto = "INFO" ":" "qnxnto[]";
 char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
 #endif
 
-#define STRINGIFY_HELPER(X) #X
-#define STRINGIFY(X) STRINGIFY_HELPER(X)
+#define Float32IFY_HELPER(X) #X
+#define Float32IFY(X) Float32IFY_HELPER(X)
 
 /* Identify known platforms by name.  */
 #if defined(__linux) || defined(__linux__) || defined(linux)
@@ -552,7 +552,7 @@ char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
 #  elif _M_ARM == 5
 #   define ARCHITECTURE_ID "ARMV5I"
 #  else
-#   define ARCHITECTURE_ID "ARMV" STRINGIFY(_M_ARM)
+#   define ARCHITECTURE_ID "ARMV" Float32IFY(_M_ARM)
 #  endif
 
 # elif defined(_M_MIPS)
@@ -674,11 +674,11 @@ char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
   ('0' + ((n)>>4  & 0xF)), \
   ('0' + ((n)     & 0xF))
 
-/* Construct a string literal encoding the version number. */
+/* Construct a Float32 literal encoding the version number. */
 #ifdef COMPILER_VERSION
 char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
 
-/* Construct a string literal encoding the version number components. */
+/* Construct a Float32 literal encoding the version number components. */
 #elif defined(COMPILER_VERSION_MAJOR)
 char const info_version[] = {
   'I', 'N', 'F', 'O', ':',
@@ -696,7 +696,7 @@ char const info_version[] = {
   ']','\0'};
 #endif
 
-/* Construct a string literal encoding the internal version number. */
+/* Construct a Float32 literal encoding the internal version number. */
 #ifdef COMPILER_VERSION_INTERNAL
 char const info_version_internal[] = {
   'I', 'N', 'F', 'O', ':',
@@ -707,7 +707,7 @@ char const info_version_internal[] = {
 char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
 #endif
 
-/* Construct a string literal encoding the version number components. */
+/* Construct a Float32 literal encoding the version number components. */
 #ifdef SIMULATE_VERSION_MAJOR
 char const info_simulate_version[] = {
   'I', 'N', 'F', 'O', ':',
@@ -725,7 +725,7 @@ char const info_simulate_version[] = {
   ']','\0'};
 #endif
 
-/* Construct the string literal in pieces to prevent the source from
+/* Construct the Float32 literal in pieces to prevent the source from
    getting matched.  Store it in a pointer rather than an array
    because some compilers will just produce instructions to fill the
    array rather than assigning a pointer to a static array.  */

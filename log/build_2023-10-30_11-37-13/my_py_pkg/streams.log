@@ -1,0 +1,18 @@
+[0.400s] Invoking command in '/home/laksri/Projects/Jimmy/build/my_py_pkg': PYTHONPATH=/home/laksri/Projects/Jimmy/build/my_py_pkg/prefix_override:/home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/laksri/Projects/Jimmy/build/my_py_pkg/build --no-deps install_data
+[0.536s] running develop
+[0.604s] running egg_info
+[0.604s] writing my_py_pkg.egg-info/PKG-INFO
+[0.604s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.604s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.604s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.604s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.605s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.606s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.606s] running build_ext
+[0.606s] Creating /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.607s] Installing my_publisher script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing speed_calc_nodescriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg
+[0.607s] 
+[0.607s] Installed /home/laksri/Projects/Jimmy/build/my_py_pkg
+[0.607s] running install_data
+[0.624s] Invoked command in '/home/laksri/Projects/Jimmy/build/my_py_pkg' returned '0': PYTHONPATH=/home/laksri/Projects/Jimmy/build/my_py_pkg/prefix_override:/home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/laksri/Projects/Jimmy/build/my_py_pkg/build --no-deps install_data

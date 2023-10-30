@@ -42,7 +42,7 @@
 [0.680801] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
 [0.680923] (my_py_pkg) StdoutLine: {'line': b'Creating /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)\n'}
 [0.681218] (my_py_pkg) StdoutLine: {'line': b'Installing my_publisher script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg\n'}
-[0.681383] (my_py_pkg) StdoutLine: {'line': b'Installing my_subscriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.681383] (my_py_pkg) StdoutLine: {'line': b'Installing  speed_calc_nodescriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg\n'}
 [0.681453] (my_py_pkg) StdoutLine: {'line': b'\n'}
 [0.681605] (my_py_pkg) StdoutLine: {'line': b'Installed /home/laksri/Projects/Jimmy/build/my_py_pkg\n'}
 [0.681673] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
@@ -56,7 +56,7 @@
 [0.700744] (-) TimerEvent: {}
 [0.730183] (waling_algorithm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
 [0.730649] (waling_algorithm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
-[0.730820] (waling_algorithm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.730820] (waling_algorithm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docFloat32 style conventions in PEP 257\n"}
 [0.731326] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
 [0.731573] (waling_algorithm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
 [0.732535] (waling_algorithm) StdoutLine: {'line': b'-- Configuring done\n'}

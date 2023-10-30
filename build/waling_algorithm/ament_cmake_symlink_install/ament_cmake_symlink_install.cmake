@@ -322,8 +322,8 @@ ament_cmake_symlink_install_directory("/home/laksri/Projects/Jimmy/src/waling_al
 # install(DIRECTORY "/home/laksri/Projects/Jimmy/src/waling_algorithm/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/laksri/Projects/Jimmy/src/waling_algorithm" DIRECTORY "/home/laksri/Projects/Jimmy/src/waling_algorithm/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "DESTINATION" "lib/waling_algorithm")
-ament_cmake_symlink_install_programs("/home/laksri/Projects/Jimmy/src/waling_algorithm" PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "DESTINATION" "lib/waling_algorithm")
+# install(PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "scripts/rpm_pub.py" "scripts/speed_clc.py" "DESTINATION" "lib/waling_algorithm")
+ament_cmake_symlink_install_programs("/home/laksri/Projects/Jimmy/src/waling_algorithm" PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "scripts/rpm_pub.py" "scripts/speed_clc.py" "DESTINATION" "lib/waling_algorithm")
 
 # install(FILES "/home/laksri/Projects/Jimmy/build/waling_algorithm/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/waling_algorithm" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/laksri/Projects/Jimmy/src/waling_algorithm" FILES "/home/laksri/Projects/Jimmy/build/waling_algorithm/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/waling_algorithm" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

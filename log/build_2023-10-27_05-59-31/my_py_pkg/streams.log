@@ -11,7 +11,7 @@
 [0.628s] running build_ext
 [0.628s] Creating /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
 [0.629s] Installing my_publisher script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg
-[0.629s] Installing my_subscriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg
+[0.629s] Installing  speed_calc_nodescriber script to /home/laksri/Projects/Jimmy/install/my_py_pkg/lib/my_py_pkg
 [0.629s] 
 [0.629s] Installed /home/laksri/Projects/Jimmy/build/my_py_pkg
 [0.629s] running install_data
